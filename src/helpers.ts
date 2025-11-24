@@ -143,7 +143,18 @@ export async function createAssetUtil(
 		)
 		return await createAsset(name, symbol, signer, assetUrl, templateIDorAddress, ddo, encryptDDO, oceanNodeUrl, providerFeeToken, aquariusInstance, accessListFactory, allowAccessList, denyAccessList);
 	}
-	return await createAsset(name, symbol, signer, assetUrl, templateIDorAddress, ddo, encryptDDO, oceanNodeUrl, providerFeeToken, aquariusInstance);
+	return await createAsset(
+        name,
+        symbol,
+        signer,
+        assetUrl,
+        templateIDorAddress,
+        ddo,
+        encryptDDO,
+        oceanNodeUrl,
+        providerFeeToken,
+        aquariusInstance
+    );
 }
 
 

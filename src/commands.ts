@@ -84,6 +84,11 @@ export class Commands {
 			const { indexedMetadata } = ddoInstance.getAssetFields();
 			const { services } = ddoInstance.getDDOFields();
 			// add some more checks
+			console.log('Network config:', {
+				chainId: this.config.chainId,
+				nodeUri: this.config.oceanNodeUri,
+			});
+
 			const urlAssetId = await createAssetUtil(
 				indexedMetadata.nft.name,
 				indexedMetadata.nft.symbol,

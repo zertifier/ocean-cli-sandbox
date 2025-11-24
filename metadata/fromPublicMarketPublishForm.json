@@ -1,0 +1,118 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:9de1761466bf4ca52fd819af2c0714ab0cfc1940928c82e35cc159100908caab",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T07:56:51Z",
+      "updated": "2025-11-24T07:56:51Z",
+      "type": "dataset",
+      "name": "Power grid consumption data",
+      "description": {
+        "@value": "Data containing analytic for power grid of a city",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "zertifier",
+      "license": {
+        "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+        "licenseDocuments": [
+          {
+            "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+            "fileType": "text/plain; charset=utf-8",
+            "sha256": "9baadca864bcb6bb30ece91803c808e18980bb217ad849f225dd5ae660fbd4d5",
+            "mirrors": [
+              {
+                "type": "url",
+                "method": "get",
+                "url": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License"
+              }
+            ]
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "id": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+        "type": "access",
+        "files": [
+          {
+            "type": "url",
+            "index": 0,
+            "url": "https://gist.githubusercontent.com/grigorevaiv/f0672db952d55c9f4b84ec2803c90665/raw/3a00d4c0bdb483d9d68fba4c0b8af430fb553914/farmdata.json",
+            "headers": {},
+            "method": "get"
+          }
+        ],
+        "datatokenAddress": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA",
+        "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+        "timeout": 31556952,
+        "name": "Power grid data v2",
+        "description": {
+          "@value": "second chunk of the data",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "state": 0,
+        "credentials": {
+          "allow": [],
+          "deny": [],
+          "match_deny": "any"
+        }
+      }
+    ],
+    "nftAddress": "0x727a5006B8d133Ab7A2661d7e104E51BD21C91A2",
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 0,
+        "tokenSymbol": "EURC",
+        "tokenAddress": "0x08210F9170F89Ab7658F0B5E3fF39b0E03C594D4"
+      }
+    }
+  },
+  "indexedMetadata": {
+    "nft": {
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "templateIndex": 1,
+      "tokenURI": "",
+      "transferable": true,
+      "owner": "0x2C3ACb454818744D78a6a5b5BA400289Cda959B5",
+      "address": "",
+      "state": 0,
+      "created": ""
+    }
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0"
+}

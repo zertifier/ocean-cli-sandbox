@@ -4,22 +4,26 @@
   ],
   "id": "did:ope",
   "version": "5.0.0",
-  "type": ["VerifiableCredential"],
+  "type": [
+    "VerifiableCredential"
+  ],
   "additionalDdos": [],
   "credentialSubject": {
-    "chainId": 8996,
+    "chainId": 11155111,
     "metadata": {
-      "created": "2025-02-19T10:23:59Z",
-      "updated": "2025-02-19T10:23:59Z",
+      "created": "2025-12-19T10:23:59Z",
+      "updated": "2025-12-19T10:23:59Z",
       "type": "dataset",
-      "name": "The Digital Project Management Office (DigitalPMO)",
+      "name": "The Digital Project Management Office (DigitalPMO) with Ilya 2",
       "description": {
-        "@value": "fdsfsdfsdfsdfsdfsd",
+        "@value": "opagopa",
         "@direction": "",
         "@language": ""
       },
-      "tags": [],
-      "author": "",
+      "tags": [
+        "zertifier"
+      ],
+      "author": "Irets",
       "license": {
         "name": "https://www.google.de",
         "licenseDocuments": [
@@ -49,8 +53,8 @@
         "id": "ccb398c50d6abd5b456e8d7242bd856a1767a890b537c2f8c10ba8b8a10e6025",
         "type": "access",
         "files": {
-          "datatokenAddress": "0x0",
-          "nftAddress": "0x0",
+          "datatokenAddress": "",
+          "nftAddress": "",
           "files": [
             {
               "type": "url",
@@ -61,20 +65,16 @@
         },
         "state": 0,
         "datatokenAddress": "",
-        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
-        "timeout": 0,
-        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+        "timeout": "86400",
+        "name": "service name",
+        "description": {
+          "@value": "second chunk of the data",
+          "@direction": "ltr",
+          "@language": "en"
+        },
         "credentials": {
-          "allow": [
-            {
-              "type": "address",
-              "values": [
-                {
-                  "address": "*"
-                }
-              ]
-            }
-          ],
+          "allow": [],
           "deny": [],
           "match_deny": "any"
         }
@@ -82,41 +82,6 @@
     ],
     "credentials": {
       "allow": [
-        {
-          "type": "SSIpolicy",
-          "values": [
-            {
-              "request_credentials": [
-                {
-                  "format": "jwt_vc_json",
-                  "policies": [],
-                  "type": "UniversityDegree"
-                }
-              ],
-              "vc_policies": [
-                "signature",
-                "not-before",
-                "revoked-status-list"
-              ],
-              "vp_policies": [
-                {
-                  "policy": "holder-binding"
-                },
-                {
-                  "policy": "presentation-definition"
-                },
-                {
-                  "policy": "minimum-credentials",
-                  "args": "1"
-                },
-                {
-                  "policy": "maximum-credentials",
-                  "args": "2"
-                }
-              ]
-            }
-          ]
-        },
         {
           "type": "address",
           "values": [
@@ -131,37 +96,36 @@
     }
   },
   "indexedMetadata": {
-      "stats": [
-        {
-          "datatokenAddress": "",
-          "name": "Access Token",
-          "symbol": "OEAT",
-          "serviceId": "ccb398c50d6abd5b456e8d7242bd856a1767a890b537c2f8c10ba8b8a10e6025",
-          "orders": 0,
-          "prices": [
-            {
-              "type": "dispenser",
-              "price": "0",
-              "contract": "",
-              "token": ""
-            }
-          ]
-        }
-      ],
-      "nft": {
-        "state": 0,
-        "address": "",
-        "name": "Data NFT",
-        "symbol": "OEC-NFT",
-        "owner": "",
-        "created": "",
-        "tokenURI": ""
-      },
-      "event": {
-      },
-      "purgatory": {
-        "state": false
+    "stats": [
+      {
+        "datatokenAddress": "",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "serviceId": "ccb398c50d6abd5b456e8d7242bd856a1767a890b537c2f8c10ba8b8a10e6025",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "",
+            "token": ""
+          }
+        ]
       }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "",
+      "created": "",
+      "tokenURI": ""
+    },
+    "event": {},
+    "purgatory": {
+      "state": false
+    }
   },
-  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0"
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0"
 }

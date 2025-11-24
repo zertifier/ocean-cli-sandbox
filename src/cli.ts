@@ -6,6 +6,8 @@ import { stdin as input, stdout as output } from 'node:process';
 import { createInterface } from 'readline/promises';
 import { unitsToAmount } from '@oceanprotocol/lib';
 import { toBoolean } from './helpers.js';
+import  *  as dotenv from 'dotenv';
+dotenv.config();
 
 async function initializeSigner() {
 
