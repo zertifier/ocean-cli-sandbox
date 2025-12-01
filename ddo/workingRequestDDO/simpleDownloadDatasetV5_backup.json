@@ -1,0 +1,145 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [
+
+  ],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [
+
+      ],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "",
+      "copyrightHolder": "",
+      "created": "2025-02-19T10:23:59Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "fdsfsdfsdfsdfsdfsd"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=ISO-8859-1",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://www.google.de"
+              }
+            ],
+            "name": "https://www.google.de",
+            "sha256": "5a051e8e73057a521eadf3f80219495c4ed04d63397e5817a72ec2c335025b44"
+          }
+        ],
+        "name": "https://www.google.de"
+      },
+      "links": {
+
+      },
+      "name": "The Digital Project Management Office (DigitalPMO)",
+      "providedBy": "",
+      "tags": [
+
+      ],
+      "type": "dataset",
+      "updated": "2025-02-19T10:23:59Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [
+
+          ],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "",
+        "files": {
+          "datatokenAddress": "0x0",
+          "files": [
+            {
+              "method": "GET",
+              "type": "url",
+              "url": "https://raw.githubusercontent.com/oceanprotocol/c2d-examples/main/branin_and_gpr/branin.arff"
+            }
+          ],
+          "nftAddress": "0x0"
+        },
+        "id": "ccb398c50d6abd5b456e8d7242bd856a1767a890b537c2f8c10ba8b8a10e6025",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 0,
+        "type": "access"
+      }
+    ]
+  },
+  "id": "did:ope",
+  "indexedMetadata": {
+    "event": {
+
+    },
+    "nft": {
+      "address": "",
+      "created": "",
+      "name": "Data NFT",
+      "owner": "",
+      "state": 0,
+      "symbol": "OEC-NFT",
+      "tokenURI": ""
+    },
+    "purgatory": {
+      "state": false
+    },
+    "stats": [
+      {
+        "datatokenAddress": "",
+        "name": "Access Token",
+        "orders": 0,
+        "prices": [
+          {
+            "contract": "",
+            "price": "0",
+            "token": "",
+            "type": "dispenser"
+          }
+        ],
+        "serviceId": "ccb398c50d6abd5b456e8d7242bd856a1767a890b537c2f8c10ba8b8a10e6025",
+        "symbol": "OEAT"
+      }
+    ]
+  },
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0"
+}

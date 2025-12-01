@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:5f67f0b3645bb3b17c32c38e84899f0b98d6efc5357110dbdbd1046720593032",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T12:33:19Z",
+      "updated": "2025-11-24T12:33:19Z",
+      "type": "dataset",
+      "name": "test new ocean",
+      "description": {
+        "@value": "this is a test",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "",
+      "license": {
+        "name": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json",
+        "licenseDocuments": [
+          {
+            "sha256": "cde3fa1e4696435fb274304f710742f67bc4b810fd7ee850543d162f3e10aa70",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json"
+              }
+            ],
+            "name": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json",
+            "fileType": "application/json; charset=utf-8"
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [],
+          "match_deny": "any",
+          "deny": []
+        },
+        "name": "my service",
+        "files": "0x042ecfbc184673e405a086d00015e0e9b194342b6ddf838cd429dda679e9348e1846d2feae034c69b1be401b75c46dad43405a1c65077ff5ddd3f8601e286c12d9a9fa9d936fa0dc9b161fb2b85a7bf56a59c035ed5aaef57c99166a23421a5e4d6990238cfec03057ff6bb44894920513332980a01b0949ce085aeab28dfcb4faf4e50de15e3cdd11d2c5dc3ff13d14d3fce615bcd7c51229b5ac70db964eb93c6f0b83b572409c2ffb03d08a646acd67c0ec4fb65ac4c4a22b95d96aae0c428f05d8b2ac4dc4c88d18d0adcf6111d6fd535a9c5c9f70600273d23a843a4f3fbaf41ebd44c958ed18c647eee2819e4cbc361b4b1f5faada5213140d1f3fedba74404f02bc3f7e8a5a25b36a17a0370237f0a62efd7e488d4669368cb8a3b4b4e105e45f5026005ed28a497e758e38f4f2dc0bf080121490520ca564a07188661e31efcb897544f8ef5ba7e28baf4404dfcf76aea6cf65fb4d82baa8c533ba9b4b3132",
+        "description": {
+          "@value": "service 1 descr",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "id": "86ccbdb8af48d340329759026dd6fcf75f320af05064d42f262c8df7d1426982",
+        "datatokenAddress": "0x0D1cE471fAfc5944efa2F8fE7351B6Ce9C592745",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "type": "access",
+        "timeout": 0
+      }
+    ],
+    "nftAddress": "0x383fb458Dd4B3b85dfa287C3B731E022f4C1Eb54",
+    "credentials": {
+      "allow": [
+        {
+          "values": [
+            {
+              "address": "*"
+            }
+          ],
+          "type": "address"
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 2,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    },
+    "datatokens": [
+      {
+        "symbol": "OEAT",
+        "address": "0x0D1cE471fAfc5944efa2F8fE7351B6Ce9C592745",
+        "name": "Access Token",
+        "serviceId": "86ccbdb8af48d340329759026dd6fcf75f320af05064d42f262c8df7d1426982"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibmU1V3ZENDVGWUlUYTJzVGMzdUFlZXN0VjFkNTVnYnhDRzNORktvQlJ2ZyIsIngiOiJhLXZ3dWdMV2tmNmVuMEFqdl8wRVZsTW02akczTGg2SXVycUprSTdxbmdJIn0",
+  "proof": {
+    "signature": "A6sY7ny79wHVqFiih_wxxueGyLpwiNYodwKBNmMzTm7SXb60vG1TuRDz_ZAU6wBZWquXbeyINV82lP9M4r8ZBA",
+    "header": {
+      "kid": "ne5WvD45FYITa2sTc3uAeestV1d55gbxCG3NFKoBRvg",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "symbol": "OEAT",
+        "name": "Access Token",
+        "orders": 2,
+        "datatokenAddress": "0x0D1cE471fAfc5944efa2F8fE7351B6Ce9C592745",
+        "serviceId": "86ccbdb8af48d340329759026dd6fcf75f320af05064d42f262c8df7d1426982",
+        "prices": [
+          {
+            "exchangeId": "0x0e9c8408d825f3111b95b6f3e9a5f0c56122dae8ab3418f7a80ab6144184c933",
+            "price": "2.0",
+            "contract": "0xEcD0C3519a081e3924D6F3197f86980eA7dfCf71",
+            "type": "fixedrate",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x383fb458Dd4B3b85dfa287C3B731E022f4C1Eb54",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "created": "2025-11-24T12:33:36Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0xf5d7cc74855be92b10039c9c673a7f2237a3273f38dc55d0af5bf15e66d27d78",
+      "from": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "contract": "0x383fb458Dd4B3b85dfa287C3B731E022f4C1Eb54",
+      "block": 9696784,
+      "datetime": "2025-11-24T12:33:36.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "fixed",
+      "price": "2.0",
+      "addressOrId": "0x0e9c8408d825f3111b95b6f3e9a5f0c56122dae8ab3418f7a80ab6144184c933",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0x0D1cE471fAfc5944efa2F8fE7351B6Ce9C592745",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

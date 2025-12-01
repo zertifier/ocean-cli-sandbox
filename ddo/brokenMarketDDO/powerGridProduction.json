@@ -1,0 +1,159 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:2a8f71c28b84bef4186b9940ea6061f92dcfabb447d95395138539193040bb59",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T07:56:51Z",
+      "updated": "2025-11-24T07:56:51Z",
+      "type": "dataset",
+      "name": "Power grid production data",
+      "description": {
+        "@value": "Data containing analytic for power grid of a city",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "zertifier",
+      "license": {
+        "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+        "licenseDocuments": [
+          {
+            "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+            "fileType": "text/plain; charset=utf-8",
+            "sha256": "9baadca864bcb6bb30ece91803c808e18980bb217ad849f225dd5ae660fbd4d5",
+            "mirrors": [
+              {
+                "type": "url",
+                "method": "get",
+                "url": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License"
+              }
+            ]
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "id": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+        "type": "access",
+        "files": "0x0446aff8b56799052a2832957d6b658e4122d6311d47ba36232a94e9de199152e68a9d19488cdc7083bb01a0998461cc92a1381444c8a4711e95e1a3502897b540ba2fafe49d1616b0d905c8a98704558c31f2c37cbab734d95f772486ca508d3bda47c2d03785b2038d188caa3f9726cbd945ac972eb354ed5cd03beec934ae52735494d7b4bcc8d683b7b0282f3e8ae264938e4bec3ef82afade0944d97da3570a47cb4c3b36843f884c25851e25a1b9eafe06aa9d169384daa2e99f7c73a612d5e845043fe9897828460c4204eabb9f81c702409a740a252bac032c385b4664e6b43291567c1f97548143e9e69479f461ac5da3d056f62ce3e92ec45c3e9f351f7a1d7e7e7db789024c4e64bc014b95d1d4f10b8f03afc1d4de782553ba91540d343e16aa507fe6eeaa88efbd377e56fd9cdba339565b53bc5682690e6432f44e418ba332ea564ad82512e3ddac46b99793574f98a0390f8cc84f93c3962d5c3edaacf383466d88cab8d206a3f247a18f11b0ecd15bee394e0189454278de17c40963a8c398b460e2cfc8fe692af944d94fc41e2ddb",
+        "datatokenAddress": "0xd2b78BC970e4179AD5bF602d38355e2914f8A1eA",
+        "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+        "timeout": 31556952,
+        "name": "Power grid data v3",
+        "description": {
+          "@value": "third chunk of the data",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "state": 0,
+        "credentials": {
+          "allow": [],
+          "deny": [],
+          "match_deny": "any"
+        }
+      }
+    ],
+    "nftAddress": "0x5153e1B749AA1e2f0cbf439E1C90074dD4d2a106",
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "datatokens": [
+      {
+        "address": "0xd2b78BC970e4179AD5bF602d38355e2914f8A1eA",
+        "name": "Stupendous Otter Token",
+        "symbol": "STUOTT-57",
+        "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0xd2b78BC970e4179AD5bF602d38355e2914f8A1eA",
+        "name": "Stupendous Otter Token",
+        "symbol": "STUOTT-57",
+        "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0xd2b78BC970e4179AD5bF602d38355e2914f8A1eA"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x5153e1B749AA1e2f0cbf439E1C90074dD4d2a106",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-11-24T13:53:00Z",
+      "tokenURI": "aaa"
+    },
+    "event": {
+      "txid": "0xa7e85d426a773be899800d80d7aa80c16eb8d2e7d402174fa3c0a798accdcf36",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x5153e1B749AA1e2f0cbf439E1C90074dD4d2a106",
+      "block": 9697170,
+      "datetime": "2025-11-24T13:53:00.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0xd2b78BC970e4179AD5bF602d38355e2914f8A1eA",
+        "name": "Stupendous Otter Token",
+        "symbol": "STUOTT-57",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

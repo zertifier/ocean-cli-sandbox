@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {},
+      "name": "Base dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "0x484b766F84f2F60097A4bb47E1c87E3486054156",
+        "files": "0x04522c5b0d3f1f74cf09da5f9a105ff25efea5638702614ddbc02b681f2ffe0c5c2040be70ead35c84d21b2976075f3014ba8847253836b0737cab536916b3cfa5cdb2d61a7a56ee107978d2bd4bc00aaaa7b5c2a3be99916799d8c2f41887f9fa44e64c9c5796c6c13cd779555e7128778ff90376b8981a3d19dfc787513c6fd83838984b389e7c46725fa330c277054b4aa49ace0851d3ac2cb9655753d5daf0c3087df72f89d5b84bee53f46e5ec2f917e6c136cf17e75d253b53d5aa3ba541e4c4248527e91d57222996ebfbec6ce392cef56f27191a77a4e234ae1fe03fe358197d23beca45763251fb56a7920dab1edd33a21164be615071c495835e00c6fc73c48e8808f3d8e7e6d6751dfb6511a5719fffeec279bb9c681dc5082968de364f053682d232a5e504eb1bad17df77c0f1ef5dc5fb1aafc4f724156247596de6fe51bf52eb9c3debeced087b594a7686e50c743a1cac0a558f9cc3f0b5",
+        "id": "1",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+    ],
+    "nftAddress": "0x434967F4317079dcE80df3F4D1068927C9d4aC31",
+    "datatokens": [
+      {
+        "address": "0x484b766F84f2F60097A4bb47E1c87E3486054156",
+        "name": "Creative Starfish Token",
+        "symbol": "CRESTA-40",
+        "serviceId": "1"
+      }
+    ]
+  },
+  "id": "did:ope:bec10b8853e3c9619eb06cd5b7c1c7ccc553c0f0cb23dcdbb6f0dd267ddd372b",
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0x484b766F84f2F60097A4bb47E1c87E3486054156",
+        "name": "Creative Starfish Token",
+        "symbol": "CRESTA-40",
+        "serviceId": "1",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0x484b766F84f2F60097A4bb47E1c87E3486054156"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x434967F4317079dcE80df3F4D1068927C9d4aC31",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-12-01T12:43:12Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x336fbac5a1265065016d506283e55703a0eb18447f38eeb22baa1d426b6ac3d3",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x434967F4317079dcE80df3F4D1068927C9d4aC31",
+      "block": 9745813,
+      "datetime": "2025-12-01T12:43:12.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0x484b766F84f2F60097A4bb47E1c87E3486054156",
+        "name": "Creative Starfish Token",
+        "symbol": "CRESTA-40",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

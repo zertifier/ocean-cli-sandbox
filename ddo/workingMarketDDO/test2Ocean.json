@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:001c06807bea1a0c09a7889d3fad5b6fb8de9438f467958fd8dd5393992498d3",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T12:31:29Z",
+      "updated": "2025-11-24T12:31:29Z",
+      "type": "dataset",
+      "name": "Test",
+      "description": {
+        "@value": "this is a test",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "",
+      "license": {
+        "name": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json",
+        "licenseDocuments": [
+          {
+            "sha256": "cde3fa1e4696435fb274304f710742f67bc4b810fd7ee850543d162f3e10aa70",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json"
+              }
+            ],
+            "name": "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json",
+            "fileType": "application/json; charset=utf-8"
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [],
+          "match_deny": "any",
+          "deny": []
+        },
+        "name": "service 1",
+        "files": "0x0430fbded1ca3738b36ea53f17ab89990c36014d4a2e65ee34f2db80b8e190d0fe4216409fa86e836ef354cdda2890f4c352d667b3b4d270ccef53499800a992058c2a5d9ad01a1b315ff50882a184333e3ebb9b7a3872e940ed801d490bbfcfb2b6208a0ebc3b86697184555acfbb0ef38ccafae51392a51341599c1c841f8bcc9892191a345d9135899edd76bd69f47a463cb5fd126d370d4773a55f81aa168d993215a40abcc784aefe1423343b88ccd2c8d1424acf112a4aa2e64e256303ec0c1089828e13b41a3ee8b834f872bc4db5d4af7efe9c16c076eddc7b1e9d56b8307db0e97bc16e98b7f637f4cd636cd1c2279200cf571634b71d2b051ea8173defe66af4511273716f5d707b3a901f88efb79f04b404114f340bf210b7cab529cf80fa2d20d7e3095e71de64141d2679685a74c58a4f844b6bfb8cc5255f4aede0997d539b91fb45c67a057b4d4a83af5ecc43f4105f6a9789579e749dad9ab9a544",
+        "description": {
+          "@value": "this is a description",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "id": "15c315f07b7a818a05ad064234261eef2d345fcb389ef0289f9748d4adff0d08",
+        "datatokenAddress": "0x3415bE5Ef70C7da172831497791f113aE656E6E2",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "type": "access",
+        "timeout": 0
+      }
+    ],
+    "nftAddress": "0x2DdE84a1851801e69eb7F4A994678A9f10cbA8B9",
+    "credentials": {
+      "allow": [
+        {
+          "values": [
+            {
+              "address": "*"
+            }
+          ],
+          "type": "address"
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 2,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    },
+    "datatokens": [
+      {
+        "symbol": "OEAT",
+        "address": "0x3415bE5Ef70C7da172831497791f113aE656E6E2",
+        "name": "Access Token",
+        "serviceId": "15c315f07b7a818a05ad064234261eef2d345fcb389ef0289f9748d4adff0d08"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibmU1V3ZENDVGWUlUYTJzVGMzdUFlZXN0VjFkNTVnYnhDRzNORktvQlJ2ZyIsIngiOiJhLXZ3dWdMV2tmNmVuMEFqdl8wRVZsTW02akczTGg2SXVycUprSTdxbmdJIn0",
+  "proof": {
+    "signature": "azBqt1Usm2DH0lU7j-7FaCXSEPG0E9DXRzJfkhR0J0jfXqriXNtFkv-SchkfMV8v9t5rS2jmG6LrXvvGb5HrCw",
+    "header": {
+      "kid": "ne5WvD45FYITa2sTc3uAeestV1d55gbxCG3NFKoBRvg",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "symbol": "OEAT",
+        "name": "Access Token",
+        "orders": 1,
+        "datatokenAddress": "0x3415bE5Ef70C7da172831497791f113aE656E6E2",
+        "serviceId": "15c315f07b7a818a05ad064234261eef2d345fcb389ef0289f9748d4adff0d08",
+        "prices": [
+          {
+            "exchangeId": "0x3789812b69063a5a5bde44fa80446964f1825f78ff848fb43a8dc495b6186962",
+            "price": "2.0",
+            "contract": "0xEcD0C3519a081e3924D6F3197f86980eA7dfCf71",
+            "type": "fixedrate",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x2DdE84a1851801e69eb7F4A994678A9f10cbA8B9",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "created": "2025-11-24T12:31:48Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x736ece5a5266e61ecffaaa0294204387cd1f4709a1a6b79ac60846f9f1cf2885",
+      "from": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "contract": "0x2DdE84a1851801e69eb7F4A994678A9f10cbA8B9",
+      "block": 9696775,
+      "datetime": "2025-11-24T12:31:48.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "fixed",
+      "price": "2.0",
+      "addressOrId": "0x3789812b69063a5a5bde44fa80446964f1825f78ff848fb43a8dc495b6186962",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0x3415bE5Ef70C7da172831497791f113aE656E6E2",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x94Eaa462E86cf84E772F8173E13af8BA4F08c0a7",
+      "templateId": 2,
+      "isOwned": true,
+      "validOrderTx": "0x941b7f178fa12b45cc01877b1da6eae38a408491b1ab6306eaf52412b8b2a7e1",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

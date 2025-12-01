@@ -1,0 +1,175 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:9de1761466bf4ca52fd819af2c0714ab0cfc1940928c82e35cc159100908caab",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T07:56:51Z",
+      "updated": "2025-11-24T07:56:51Z",
+      "type": "dataset",
+      "name": "Power grid data",
+      "description": {
+        "@value": "Data containing analytic for power grid of a city",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "zertifier",
+      "license": {
+        "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+        "licenseDocuments": [
+          {
+            "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+            "fileType": "text/plain; charset=utf-8",
+            "sha256": "9baadca864bcb6bb30ece91803c808e18980bb217ad849f225dd5ae660fbd4d5",
+            "mirrors": [
+              {
+                "type": "url",
+                "method": "get",
+                "url": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License"
+              }
+            ]
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "id": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+        "type": "access",
+        "files": "0x04fd9e50517c9abb0a8ebb639d64952593d42ce04eebfb840b8f774b0f5b43dbaaff9eef3845d5b7a024441f8a0882fe99ebd4c55a6bfaf0c7c8759fb56ad8b3a75ac89060492ee656810952d69f0f3130db5dd5c9f785f1274cdc63ba4e6d43d4f0b990f8c371d00b67a4f4035dbe54308df60f3d6da21cc67f4442c9b6a7e781816ae0ce65251b1756ee495db16b1ec68aec454400c83bd991baece192f1d51872d9a5f8c6073ab7a76cf3823897538c449eb710d08c040431801e7e36d242b2c64b9e55179587ec0529834c49ccf24b660c468c8c0fc069f8f137317bed4b8ab4e8af80de82385224c1f05903ba50b59f58b6b357fdf57011f7a2c84edbc6fd3005e7a7b96e712879fbd135d413acb81cf6a68de1e1b4a101f3ba6b791f6a4ced51f4d588f6734ec86c76c6c95489b886972c1fc5a544d071f9d0e4918360a9ade488fa15ba4c0063aa620070d8ef445f0721570bcb523312d02deb35f961443bbff4db4ac53dc9609d1cc2bb5c1438638c1bebbb0739d059e1170014a7740ff76cf5d3318374e7a68ddb72f7bc4796fa490e8c9300295e095a9c16b0fb4f7cbfdef0ee78dcdd860f4cb5d838",
+        "datatokenAddress": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA",
+        "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+        "timeout": 31556952,
+        "name": "Power grid data v1",
+        "description": {
+          "@value": "first chunk of the data",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "state": 0,
+        "credentials": {
+          "allow": [],
+          "deny": [],
+          "match_deny": "any"
+        }
+      }
+    ],
+    "nftAddress": "0x727a5006B8d133Ab7A2661d7e104E51BD21C91A2",
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 0,
+        "tokenSymbol": "EURC",
+        "tokenAddress": "0x08210F9170F89Ab7658F0B5E3fF39b0E03C594D4"
+      }
+    },
+    "datatokens": [
+      {
+        "address": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0",
+  "proof": {
+    "signature": "MxKmp2BjbqyaEReNVNLgOZSVhr2_-Ma9jlNfC2Vc6gARB8xzxnETqCoOiJ9bPWEMhWg-JRqrBbV9CWfpd6EuCA",
+    "header": {
+      "kid": "lnYKb0ETTzPZzsBOrgEF76-ekxtuZ2JxjBzzuNBFwq8",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x727a5006B8d133Ab7A2661d7e104E51BD21C91A2",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x2C3ACb454818744D78a6a5b5BA400289Cda959B5",
+      "created": "2025-11-24T07:57:00Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x1817884d76051d6ef38c303110e34a90f0fc5d03c703d88e01ad89038f740b75",
+      "from": "0x2C3ACb454818744D78a6a5b5BA400289Cda959B5",
+      "contract": "0x727a5006B8d133Ab7A2661d7e104E51BD21C91A2",
+      "block": 9695445,
+      "datetime": "2025-11-24T07:57:00.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0x6B2803b28407dA3262b6ec337A2E5851A7A9EfaA",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x2C3ACb454818744D78a6a5b5BA400289Cda959B5",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

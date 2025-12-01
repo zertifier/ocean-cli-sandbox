@@ -1,0 +1,159 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2"
+    ],
+    "id": "did:ope:1bc7bdff1c7fb5b4d7ab8bedb3950df21d1d3d9478c69ceb538cf9bb4a1866f8",
+    "version": "5.0.0",
+    "credentialSubject": {
+        "chainId": 11155111,
+        "metadata": {
+            "created": "2025-11-24T07:56:51Z",
+            "updated": "2025-11-24T07:56:51Z",
+            "type": "dataset",
+            "name": "Power grid consumption data",
+            "description": {
+                "@value": "Data containing analytic for power grid of a city",
+                "@direction": "",
+                "@language": ""
+            },
+            "tags": [],
+            "author": "zertifier",
+            "license": {
+                "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+                "licenseDocuments": [
+                    {
+                        "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+                        "fileType": "text/plain; charset=utf-8",
+                        "sha256": "9baadca864bcb6bb30ece91803c808e18980bb217ad849f225dd5ae660fbd4d5",
+                        "mirrors": [
+                            {
+                                "type": "url",
+                                "method": "get",
+                                "url": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "links": {},
+            "additionalInformation": {
+                "termsAndConditions": true
+            },
+            "copyrightHolder": "",
+            "providedBy": ""
+        },
+        "services": [
+            {
+                "id": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+                "type": "access",
+                "files": "0x040a81624b3466fa7e896ce4328167961f1c599d84441e4ce38136abdbc0fb72046ef6cb5be2becc4ac4023fd2345d6e93e5bca98a685d68e18b778099b8350bb524e603423cf258dbda5a08d6c3d32851371a0caa1d891174c3b5f493073cea22f7670904bcdc3f7ad281f6a12115e8af955ced9ae83d26a84b06caa6b4801da8f823c6c3c2d8db5a3ee49f503f764b288d188db0b79618b9828881edaed5431a193443e14f00552a7cee9b47ad5fa22935d2c29ca8e08dcef64653dd9e7c825f119ea9854fffd26563e2ff219f35e959558f9cd99d3a7dc74738ec798894c2ad4e3cdf5a697a2b452dcc86e554d1820536be964bf727992ec76162434dbb94d4e5727f916b2a08258f97f973d63e37d064bfeebda84cab817d305a7ccb0de35488b4481d57e99ab3e12c6c668a4a4f534a68d4336daf2ac30c4a2606503c575c873496fc995256f959e08a822c9e6237aa860182369c51e9ff24242d557d901ca6fa886628d56492746545994baf084ae4856d0d0afcc4b2270f032654469f392a374eaae94fa115c51721ac91de0ef9124f41d572c4",
+                "datatokenAddress": "0x18B80A7CB463d05Bf009f0738Ae52a9e18fAc1D5",
+                "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+                "timeout": 31556952,
+                "name": "Power grid data v2",
+                "description": {
+                    "@value": "second chunk of the data",
+                    "@direction": "ltr",
+                    "@language": "en"
+                },
+                "state": 0,
+                "credentials": {
+                    "allow": [],
+                    "deny": [],
+                    "match_deny": "any"
+                }
+            }
+        ],
+        "nftAddress": "0x73b31e5b720fD9bF00b4ca1d365ca2e75Fc38Dbd",
+        "credentials": {
+            "allow": [
+                {
+                    "type": "address",
+                    "values": [
+                        {
+                            "address": "*"
+                        }
+                    ]
+                }
+            ],
+            "deny": [],
+            "match_deny": "any"
+        },
+        "datatokens": [
+            {
+                "address": "0x18B80A7CB463d05Bf009f0738Ae52a9e18fAc1D5",
+                "name": "Sartorial Dolphin Token",
+                "symbol": "SARDOL-64",
+                "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664"
+            }
+        ]
+    },
+    "additionalDdos": [],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0",
+    "indexedMetadata": {
+        "stats": [
+            {
+                "datatokenAddress": "0x18B80A7CB463d05Bf009f0738Ae52a9e18fAc1D5",
+                "name": "Sartorial Dolphin Token",
+                "symbol": "SARDOL-64",
+                "serviceId": "d15aa901aa0c2f5ac0f99ebe12a201fcf534a64aadeb1921bec348fa80746664",
+                "orders": 0,
+                "prices": [
+                    {
+                        "type": "dispenser",
+                        "price": "0",
+                        "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+                        "token": "0x18B80A7CB463d05Bf009f0738Ae52a9e18fAc1D5"
+                    }
+                ]
+            }
+        ],
+        "nft": {
+            "state": 0,
+            "address": "0x73b31e5b720fD9bF00b4ca1d365ca2e75Fc38Dbd",
+            "name": "Data NFT",
+            "symbol": "OEC-NFT",
+            "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "created": "2025-11-24T13:45:00Z",
+            "tokenURI": "aaa"
+        },
+        "event": {
+            "txid": "0x3844fd4e808842867675692ac2168f3273be549ecf285723069951b819155b41",
+            "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "contract": "0x73b31e5b720fD9bF00b4ca1d365ca2e75Fc38Dbd",
+            "block": 9697134,
+            "datetime": "2025-11-24T13:45:00.000Z"
+        },
+        "purgatory": {
+            "state": false
+        }
+    },
+    "accessDetails": [
+        {
+            "type": "free",
+            "price": "0",
+            "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "baseToken": {
+                "address": "",
+                "name": "",
+                "symbol": "",
+                "decimals": 0
+            },
+            "datatoken": {
+                "address": "0x18B80A7CB463d05Bf009f0738Ae52a9e18fAc1D5",
+                "name": "Sartorial Dolphin Token",
+                "symbol": "SARDOL-64",
+                "decimals": 0
+            },
+            "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "templateId": 1,
+            "isOwned": false,
+            "validOrderTx": "",
+            "isPurchasable": true,
+            "publisherMarketOrderFee": "0"
+        }
+    ]
+}

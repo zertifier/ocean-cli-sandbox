@@ -1,0 +1,177 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:9e68e9df6e15a4bfd79bbd6053cc3fac5a3419f8a5212d5a28b2b2c3f6246d58",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-26T12:37:42Z",
+      "updated": "2025-11-26T12:37:42Z",
+      "type": "dataset",
+      "name": "Form testing asset",
+      "description": {
+        "@value": "description for for form testing asset",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [
+        "ocean-form-test"
+      ],
+      "author": "ocean-cli-publish",
+      "license": {
+        "name": "https://placeholder.com/",
+        "licenseDocuments": [
+          {
+            "name": "https://placeholder.com/",
+            "fileType": "",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "mirrors": [
+              {
+                "type": "url",
+                "method": "get",
+                "url": "https://placeholder.com/"
+              }
+            ]
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "id": "8744ca06367b888bc90f40021b829048a164d84922077bb39975e74c3a3dc19a",
+        "type": "access",
+        "files": "0x04ee63716bef2df8bd6a065089207bda2f2ce49e27551c45e8be9e53dee83a76d35df44bbb27513d37094d6afcaa58b7434d9a5dd01e8e26ec3a44b9bbb027d7bc19922c3daf1fe1bf6595c33ee4366a710d5efb8f58b6801e4d3ef00a425831ff1fa2114448a60ea10e8c1920eb35cb0e9009e67e303477a6d8629d6252fd3f1d24e32d92b3ee94320c70eac1d78a4e08e810187592565d3e1b07a2400aad4c837e9dcafefee997ad289e8b2fbcfbcef5e67637ad4b9a9129548fb77be8e60770810c4aadb8c742640aadaea2a1845ee6713b0b45629a0dccb1d6c7f0d0798e3824bded327b18b9f81823220b6cc29460b9274640012c00b50bb4b24eae06c378181e2ec8914047b895be0996db93b27b752ffe5db77bd557c8823a2a2ff8f8f05a10f249f679559dd4ba1bbb50af7d6d03cf2304f9e0325dd315",
+        "datatokenAddress": "0xD2D4997A7383aFC6B9bf40f351bef05E3fe89A59",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "timeout": 31556952,
+        "name": "form test service name",
+        "description": {
+          "@value": "form test service descriptiom",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "state": 0,
+        "credentials": {
+          "allow": [],
+          "deny": [],
+          "match_deny": "any"
+        }
+      }
+    ],
+    "nftAddress": "0xcD1787A4f061B854727BD581B64661a05B3Ea0d1",
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 0,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    },
+    "datatokens": [
+      {
+        "address": "0xD2D4997A7383aFC6B9bf40f351bef05E3fe89A59",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "serviceId": "8744ca06367b888bc90f40021b829048a164d84922077bb39975e74c3a3dc19a"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoiR2lDU0RHUTA1VVpwSldiWmVocGxwaEZkLUxOeFBGN0h3bURyUmxZQWxVUSIsIngiOiJqTG9VME11OVJHNURnR2JsYVlad0dDRUxaRllkc0ROb1htc29PTzAyWDRNIn0",
+  "proof": {
+    "signature": "H1O_ZW0qt15WpgwbHAOKFDTsxGM353p5I5pMsjO-7hyY_eXrfWJFOY2T7hTtwKE-nlrPa7LX9gOa7BFUfjgYAg",
+    "header": {
+      "kid": "GiCSDGQ05UZpJWbZehplphFd-LNxPF7HwmDrRlYAlUQ",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0xD2D4997A7383aFC6B9bf40f351bef05E3fe89A59",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "serviceId": "8744ca06367b888bc90f40021b829048a164d84922077bb39975e74c3a3dc19a",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0xD2D4997A7383aFC6B9bf40f351bef05E3fe89A59"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0xcD1787A4f061B854727BD581B64661a05B3Ea0d1",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-11-26T12:38:00Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0xcc0a4ee6015dba6d56674f803cda77b9ee0f7d6f32d12e1df827ca7590e63248",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0xcD1787A4f061B854727BD581B64661a05B3Ea0d1",
+      "block": 9710785,
+      "datetime": "2025-11-26T12:38:00.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0xD2D4997A7383aFC6B9bf40f351bef05E3fe89A59",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:028661478bb9c644cba4efc6c837a3115a883346c0066395fc09a84b7d5691af",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-24T10:22:04Z",
+      "updated": "2025-11-24T10:22:04Z",
+      "type": "dataset",
+      "name": "Empower-X power grid consumption data",
+      "description": {
+        "@value": "This is data of the power grid",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [
+        "empower-x",
+        "zertipower"
+      ],
+      "author": "zertifier",
+      "license": {
+        "name": "https://empower-x.io/api/cups/ontology.json",
+        "licenseDocuments": [
+          {
+            "sha256": "9a032ce9e935155d03d3b291cb6a99691efbf43dade53075070f9da08bf081f8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://empower-x.io/api/cups/ontology.json"
+              }
+            ],
+            "name": "https://empower-x.io/api/cups/ontology.json",
+            "fileType": "application/json"
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [],
+          "match_deny": "any",
+          "deny": []
+        },
+        "name": "Power grid data",
+        "files": "0x040769ca77055bc2540941bea8a1c4230f5b719760a2dd831e32d00a07fe1139105f0f5429189c626c157cbc525fb540c6a2ec5fef74903dbb736a8ca13e9ba91291bca6006fd864630ce2bfcfa1bf3d435ca813f50b9f91097deef2aae245e923ccf6f2c4cdfa70199f9d6918dc6b2f1bd8ddba899f1b09d5f421751d0c012604e3407c6b7321aa5267de86a93ca73043a8416b89e3ac488a3e053adcfc026f6fd120621d1c593978fd62b3ccd524b33fc3fcc164d1b8e20ddbe3de9b79bb1b6d2c29ffb6fdad903bf4c3d77e216a512064a0ea65af13ba33dee343cd03abb6e0c1a2684656192de734d17d93879afa5960bb32e02061bbe39978c184cf9ac41f9d06e06728791d1a0f52299ec11887ef36049310c91dc111c90c69e15ea28ec56c383d69e3d30fa7d1d87e4f6a2921182f06f8f10be1ef763a6317073bc43c94c8f0337978f20a11e0136fbdbe6be0bb8ebb55314056b783d6297eefca36d7b5d8fcfed0c202a4885878",
+        "description": {
+          "@value": "This is first chunk of the data",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "id": "beef6d7d857118fddd0796d5233885e71d325e95e1e585f8ae38fdb90420a2ba",
+        "datatokenAddress": "0x3F540a141e131cceeD9082846c28ea84927D20d9",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "type": "access",
+        "timeout": 31556952
+      },
+      {
+        "compute": {
+          "publisherTrustedAlgorithms": [
+            {
+              "filesChecksum": "*",
+              "containerSectionChecksum": "*",
+              "serviceId": "*",
+              "did": "*"
+            }
+          ],
+          "publisherTrustedAlgorithmPublishers": [
+            "*"
+          ],
+          "allowRawAlgorithm": false,
+          "allowNetworkAccess": true
+        },
+        "credentials": {
+          "allow": [],
+          "match_deny": "any",
+          "deny": []
+        },
+        "name": "Power grid compute data source",
+        "description": {
+          "@value": "this is data for the c2d",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "files": "0x04c598df54ea356218a14c198b52fe86cd33ce8046c1146613b7ede2e6643f2c7745f1c5f16dca260dc4507bfc4942bebe3596e2e06d0cb7c1c8a9acea121191e97d62cd5f6122234ca3bd1c56ea62861723230432f0143d1a3f28b23206b4e7293a24a52996af8fe2e28485203ee02ca64735b485768c92541d22905cb65df36978f1dab3163120e53e54f6a74e4c6c4a7e2378771347c841e72f832cfba5ae4eae015800dc6a7bae86c5281b0535ec10f26829854471ded65bb9d43f9ecb737865b3c6253b9719a42d0599466b562bac1e984b37e2e58784efd180d32364898c8879aa6ee0c92b4139b471fe354fd00e3024ad204a5f68c6635192be0e7c0bf02b0ac653df3ad7e511908cf5019f72340d5b21ab3ca8fc7cc049a3d750fc209f42393549662e8787f6752aa447c5cc524c842afd268eabe038783a0165964dee02d80c4133ce2fd2657af769684a3dff0bd1d59fd688ed948df77eb0b9f99bf9251a5536e573bde2dd3c",
+        "id": "0e8194ffd030a69af3fa791b808ac00a34b9698c7b86bf64654799bcee8dbb96",
+        "datatokenAddress": "0x0f89bAD6A4D9D7FF37895b24222628B8a6ABB1fa",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "type": "compute",
+        "timeout": 31556952
+      }
+    ],
+    "nftAddress": "0x4dCAB73690509503C7171b2C47474Aa677e8bC5f",
+    "credentials": {
+      "allow": [
+        {
+          "values": [
+            {
+              "address": "*"
+            }
+          ],
+          "type": "address"
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 0,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    },
+    "datatokens": [
+      {
+        "symbol": "OEAT",
+        "address": "0x3F540a141e131cceeD9082846c28ea84927D20d9",
+        "name": "Access Token",
+        "serviceId": "beef6d7d857118fddd0796d5233885e71d325e95e1e585f8ae38fdb90420a2ba"
+      },
+      {
+        "symbol": "OEAT",
+        "address": "0x0f89bAD6A4D9D7FF37895b24222628B8a6ABB1fa",
+        "name": "Access Token",
+        "serviceId": "0e8194ffd030a69af3fa791b808ac00a34b9698c7b86bf64654799bcee8dbb96"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoiR2lDU0RHUTA1VVpwSldiWmVocGxwaEZkLUxOeFBGN0h3bURyUmxZQWxVUSIsIngiOiJqTG9VME11OVJHNURnR2JsYVlad0dDRUxaRllkc0ROb1htc29PTzAyWDRNIn0",
+  "proof": {
+    "signature": "sdqDFgT5MXGJX87mjpqDw8lpoCRZqiWkUIe4vIQemJYEsA845fya66D25QaoDn84acPW6csLDUVIzMtb8xWrAg",
+    "header": {
+      "kid": "GiCSDGQ05UZpJWbZehplphFd-LNxPF7HwmDrRlYAlUQ",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "symbol": "OEAT",
+        "name": "Access Token",
+        "orders": 1,
+        "datatokenAddress": "0x3F540a141e131cceeD9082846c28ea84927D20d9",
+        "serviceId": "beef6d7d857118fddd0796d5233885e71d325e95e1e585f8ae38fdb90420a2ba",
+        "prices": [
+          {
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "type": "dispenser",
+            "token": "0x3F540a141e131cceeD9082846c28ea84927D20d9"
+          }
+        ]
+      },
+      {
+        "symbol": "OEAT",
+        "name": "Access Token",
+        "orders": 0,
+        "datatokenAddress": "0x0f89bAD6A4D9D7FF37895b24222628B8a6ABB1fa",
+        "serviceId": "0e8194ffd030a69af3fa791b808ac00a34b9698c7b86bf64654799bcee8dbb96",
+        "prices": [
+          {
+            "exchangeId": "0x4077448dbdde1dd8251835dbb4251eef7e4e3747da18e55446f2fee9d9725fcb",
+            "price": "1.0",
+            "contract": "0xEcD0C3519a081e3924D6F3197f86980eA7dfCf71",
+            "type": "fixedrate",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x4dCAB73690509503C7171b2C47474Aa677e8bC5f",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-11-24T10:24:36Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x293a5a73e26c4d3a9b2c8d1bbb41a9579e59266a0cb6bdc8e02592b78b2cede2",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x4dCAB73690509503C7171b2C47474Aa677e8bC5f",
+      "block": 9696159,
+      "datetime": "2025-11-24T10:24:36.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0x3F540a141e131cceeD9082846c28ea84927D20d9",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    },
+    {
+      "type": "fixed",
+      "price": "1.0",
+      "addressOrId": "0x4077448dbdde1dd8251835dbb4251eef7e4e3747da18e55446f2fee9d9725fcb",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0x0f89bAD6A4D9D7FF37895b24222628B8a6ABB1fa",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

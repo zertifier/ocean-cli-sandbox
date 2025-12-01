@@ -1,0 +1,194 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [
+      ],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {
+      },
+      "name": "multiService dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [
+          ],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "",
+        "files": {
+          "datatokenAddress": "",
+          "files": [
+            {
+              "method": "GET",
+              "type": "url",
+              "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+            }
+          ],
+          "nftAddress": ""
+        },
+        "id": "1",
+        "name": "first chunk",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      },
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [
+          ],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "",
+        "files": {
+          "datatokenAddress": "",
+          "files": [
+            {
+              "method": "GET",
+              "type": "url",
+              "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+            }
+          ],
+          "nftAddress": ""
+        },
+        "id": "2",
+        "name": "second chunk",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+
+    ]
+  },
+  "id": "did:ope",
+  "indexedMetadata": {
+    "event": {
+    },
+    "nft": {
+      "address": "",
+      "created": "",
+      "name": "Data NFT",
+      "owner": "",
+      "state": 0,
+      "symbol": "OEC-NFT",
+      "tokenURI": ""
+    },
+    "purgatory": {
+      "state": false
+    },
+    "stats": [
+      {
+        "datatokenAddress": "",
+        "name": "Access Token",
+        "orders": 0,
+        "prices": [
+          {
+            "contract": "",
+            "price": "0",
+            "token": "",
+            "type": "dispenser"
+          }
+        ],
+        "serviceId": "1",
+        "symbol": "OEAT"
+      },
+      {
+        "datatokenAddress": "",
+        "name": "Access Token",
+        "orders": 0,
+        "prices": [
+          {
+            "contract": "",
+            "price": "0",
+            "token": "",
+            "type": "dispenser"
+          }
+        ],
+        "serviceId": "2",
+        "symbol": "OEAT"
+      }
+    ]
+  },
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0"
+}

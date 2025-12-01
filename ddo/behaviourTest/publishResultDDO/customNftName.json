@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {},
+      "name": "customNftName dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "0x24447844a87d97BF02F1b65a74B7C4fb33798410",
+        "files": "0x04319771c5a8fb7c2d63391a987f88852717f552e5434ca397dda638dbf1c2f124d0cf2e44f276a83c1b3cf5aa4ec80e59ba0f96d000489999b594110b6107378b97568a92579cbf12be205d1dd778f6eca7b5b42ec6c7795f899d71546a78030ec6778c7ca8aaa32d0bb10f59edd87c7f2ba167a64cf952a8206c152ed99d1236861171497f98dc8f4b6cb7fdb99d2f4ba8cc37ba5cd03946a6d3f1568c987bcd781d2e257592f4195bd55d9c510b978e554df1c39ce49a46e7a00ae7d58047f0e3f9f0764d628ad457bb2e09c21fbc014fbdd4bd3e695453b499f73e467444f10b5bf63bad8d6f9c878b7e46d4844d0fdc8c16649c9abe049ab66714a566df84d9261f85563783298f3a1fdd0f02f22c8034f6c2d5263bb4cdff24d22bf387a4fcf274127a21ca88546b38c369eafe10bbdb8bb6a8e300ce9a4a027da5cdd52bf0267c984f416ec6982a33203dae69c692783c7615014707ba9fd34d9e1f",
+        "id": "1",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+    ],
+    "nftAddress": "0x498Dd9B2aEB3925eDE1f757FD5A1DD8f4B974919",
+    "datatokens": [
+      {
+        "address": "0x24447844a87d97BF02F1b65a74B7C4fb33798410",
+        "name": "Irksome Plankton Token",
+        "symbol": "IRKPLA-8",
+        "serviceId": "1"
+      }
+    ]
+  },
+  "id": "did:ope:dfe2b64c9db8e6228f2de01fe45ad3d9d2017b8dacff051909e479e96636b9e3",
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0x24447844a87d97BF02F1b65a74B7C4fb33798410",
+        "name": "Irksome Plankton Token",
+        "symbol": "IRKPLA-8",
+        "serviceId": "1",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0x24447844a87d97BF02F1b65a74B7C4fb33798410"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x498Dd9B2aEB3925eDE1f757FD5A1DD8f4B974919",
+      "name": "Irets_ breast NFT",
+      "symbol": "IRETS-HUETS",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-12-01T14:25:00Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x4d66cf4a662d1dded0edb4cfc6d64b0d44aea9cf72420f124bfe912884c911c4",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x498Dd9B2aEB3925eDE1f757FD5A1DD8f4B974919",
+      "block": 9746322,
+      "datetime": "2025-12-01T14:25:00.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0x24447844a87d97BF02F1b65a74B7C4fb33798410",
+        "name": "Irksome Plankton Token",
+        "symbol": "IRKPLA-8",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

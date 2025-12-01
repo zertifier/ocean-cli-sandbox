@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {},
+      "name": "Base dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "0x77708C6c4E5FE91C261f039BA76b7d84D9AAe6d4",
+        "files": "0x0465e9d6be2b688ed98227a52e8d7af023168a1b71589ffadfcbc5837109e30daad221b433c7f225b6cb7a1f3bb25fd13062b65739a1d9c72c277f2d0cc920cf4a92bbb6051b9ac41886f19bc12e4089f703a5a37e8d204e6c1cea9295b141553c85d74f8e81cc10a46685e8f7c5be3065af4daa5bf01db9da7ca69572cf9190500dbdf752772331716d0de1856a035839c8ae0f42f10f288501bb40d9425f17397a92d585feccbdd56a5ca963551815cda4185c05ee8a86fa20aeab5d1ed0bde96d887c352f525a83f4d85f8790e477d556de05e53da47d52cc5eb0051c3cb062f535ca978cd5a2318cbc60dfe902c3b119a99bca51c435759325f1eaad374bbeb873167cbde7a111c94bf14a8e90f47a8953a14e825c50cb7ff6bba4cc1f0bfcf057b7f4a556800f6aaf90ca71ae9d91b6688fe50daee486b5d72c80f6095d73cd1bf067a4affa085dce4ee071957ce6bd4cd66a3f1efcd72b83f3139372",
+        "id": "1",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+    ],
+    "nftAddress": "0x0e6D8526A69815DBadb472615fc63bac2Df8dfD8",
+    "datatokens": [
+      {
+        "address": "0x77708C6c4E5FE91C261f039BA76b7d84D9AAe6d4",
+        "name": "Amused Ray Token",
+        "symbol": "AMURAY-97",
+        "serviceId": "1"
+      }
+    ]
+  },
+  "id": "did:ope:55ca85804bbc853f59f03d5cbdecd5a69041dda0625c555761439fb666db8834",
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0x77708C6c4E5FE91C261f039BA76b7d84D9AAe6d4",
+        "name": "Amused Ray Token",
+        "symbol": "AMURAY-97",
+        "serviceId": "1",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "dispenser",
+            "price": "0",
+            "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "token": "0x77708C6c4E5FE91C261f039BA76b7d84D9AAe6d4"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x0e6D8526A69815DBadb472615fc63bac2Df8dfD8",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-12-01T14:21:36Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x1b1d546588ca94c4aa5fcc35e9fb874caf555cb6a8ea5247388e3472d5eb2c6e",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x0e6D8526A69815DBadb472615fc63bac2Df8dfD8",
+      "block": 9746305,
+      "datetime": "2025-12-01T14:21:36.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "free",
+      "price": "0",
+      "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+      "baseToken": {
+        "address": "",
+        "name": "",
+        "symbol": "",
+        "decimals": 0
+      },
+      "datatoken": {
+        "address": "0x77708C6c4E5FE91C261f039BA76b7d84D9AAe6d4",
+        "name": "Amused Ray Token",
+        "symbol": "AMURAY-97",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

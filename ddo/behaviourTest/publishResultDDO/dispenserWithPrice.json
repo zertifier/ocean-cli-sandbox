@@ -1,0 +1,170 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {},
+      "name": "dispenserWithPrice dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "0x0C0ff6Fe44b1d96D1Bf5c3816676002A2988e0B4",
+        "files": "0x04a7501108fd233f653c115d524a7ad22f50b206efe515bb638b10d5fed90ba3b843203fde48179f63018dbe3e66367ce0fc6953a0a2cf06bad78c80da10859c8a1ab65b0bfdd9ecd50d54da573a3752fe4c9fd2f3ba8797d57bd8c6106d92d972b3bad6a5c2492baf10c0efeece07fbf79d4e9a68ba2ad1eee178ddbc1fe2376de1ec71ff98a9fcbcbe61bda3b7190c3e2ef776df23d396c8b7ba03364c067392ec122e2dbea7cef739eb20ab563e9daa581238d654bebaad10e97a7c339d43c636699c73193a3e3c1e2be597df1f12d768436e6447726290de92369e67895e3d421f19d275270c26dc467786fa4ef62af04a8c51bf921e81c33f61ad35544e826f3a1c0535c551feb195baab29380f602e83f3a22a63777ea8cba8d3845e2e39f35dba3574c58c0d178cc66398cea7b0bc0d0d2129b221bfcc6f1a29dfc6f2faa35149f2fa0c0f27bdbd5094cede05e8e74d5c73b4cde1db386162907b65",
+        "id": "1",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+    ],
+    "nftAddress": "0x97E35915e47197B4910818d7f9a0818D39F4869a",
+    "datatokens": [
+      {
+        "address": "0x0C0ff6Fe44b1d96D1Bf5c3816676002A2988e0B4",
+        "name": "Voluble Eel Token",
+        "symbol": "VOLEEL-69",
+        "serviceId": "1"
+      }
+    ]
+  },
+  "id": "did:ope:b9d73e0ca1fdbc31c66dd62ae1af94736b684cf901a959f8e82687d569c751f1",
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0x0C0ff6Fe44b1d96D1Bf5c3816676002A2988e0B4",
+        "name": "Voluble Eel Token",
+        "symbol": "VOLEEL-69",
+        "serviceId": "1",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "fixedrate",
+            "price": "1.0",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+            "contract": "0x80E63f73cAc60c1662f27D2DFd2EA834acddBaa8",
+            "exchangeId": "0x5fc9ab8f98550336a9e8596de544778b1bfc77dbde10b264ac319b4e38682a6a"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x97E35915e47197B4910818d7f9a0818D39F4869a",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-12-01T14:17:24Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x8a4946e55e9d15bad1719e87bf1f419c733a0a811ae8f5e556b882ec536e8582",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0x97E35915e47197B4910818d7f9a0818D39F4869a",
+      "block": 9746284,
+      "datetime": "2025-12-01T14:17:24.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "fixed",
+      "price": "1.0",
+      "addressOrId": "0x5fc9ab8f98550336a9e8596de544778b1bfc77dbde10b264ac319b4e38682a6a",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0x0C0ff6Fe44b1d96D1Bf5c3816676002A2988e0B4",
+        "name": "Voluble Eel Token",
+        "symbol": "VOLEEL-69",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

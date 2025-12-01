@@ -1,0 +1,158 @@
+{
+  "user": {
+    "stepCurrent": 4,
+    "chainId": 11155111,
+    "accountId": "0x5a43ad449987600408f1e3fC90d397EC0266889B"
+  },
+  "metadata": {
+    "nft": {
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "description": "This NFT represents an asset in Ocean Enterprise ecosystems.",
+      "external_url": "https://enterprise.oceanprotocol.com",
+      "background_color": "141414",
+      "image_data": "data:image/svg+xml,%3Csvg viewBox='0 0 99 99' fill='undefined' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23009793ff' d='M0,99L0,16C6,22 13,29 21,29C28,28 36,19 45,19C53,18 61,24 71,26C80,27 89,24 99,21L99,99Z'/%3E%3Cpath fill='%23008baaff' d='M0,99L0,48C6,46 13,45 22,46C30,46 39,49 48,50C56,50 65,48 74,48C82,47 90,48 99,50L99,99Z'%3E%3C/path%3E%3Cpath fill='%23004967ff' d='M0,99L0,70C5,75 11,80 21,82C30,83 44,81 53,81C61,80 65,82 72,81C78,79 88,75 99,72L99,99Z'%3E%3C/path%3E%3C/svg%3E"
+    },
+    "transferable": true,
+    "type": "dataset",
+    "name": "Form testing asset",
+    "description": "description for for form testing asset",
+    "author": "ocean-cli-publish",
+    "termsAndConditions": true,
+    "dockerImage": "",
+    "dockerImageCustom": "",
+    "dockerImageCustomTag": "",
+    "dockerImageCustomEntrypoint": "",
+    "dockerImageCustomChecksum": "",
+    "tags": [
+      "ocean-form-test"
+    ],
+    "dataSubjectConsent": true,
+    "licenseTypeSelection": "URL",
+    "licenseUrl": [
+      {
+        "url": "https://placeholder.com/",
+        "providerUrl": "https://ocean-node-vm3.oceanenterprise.io",
+        "type": "url",
+        "chainId": 11155111,
+        "method": "get",
+        "valid": true,
+        "contentLength": "0",
+        "contentType": "",
+        "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "name": ""
+      }
+    ]
+  },
+  "services": [
+    {
+      "files": [
+        {
+          "url": "https://placeholder.com",
+          "providerUrl": "https://ocean-node-vm3.oceanenterprise.io",
+          "type": "url",
+          "headers": [],
+          "chainId": 11155111,
+          "method": "get",
+          "valid": true,
+          "contentLength": "0",
+          "contentType": "",
+          "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "name": ""
+        }
+      ],
+      "links": [
+        {
+          "url": "",
+          "type": "url"
+        }
+      ],
+      "dataTokenOptions": {
+        "name": "Access Token",
+        "symbol": "OEAT"
+      },
+      "timeout": "1 year",
+      "access": "access",
+      "providerUrl": {
+        "url": "https://ocean-node-vm3.oceanenterprise.io",
+        "valid": true,
+        "custom": true
+      },
+      "computeOptions": {
+        "allowRawAlgorithm": false,
+        "allowNetworkAccess": true,
+        "publisherTrustedAlgorithmPublishers": [],
+        "publisherTrustedAlgorithms": []
+      },
+      "usesConsumerParameters": false,
+      "consumerParameters": [],
+      "credentials": {
+        "allow": [],
+        "deny": [],
+        "requestCredentials": [],
+        "vcPolicies": [],
+        "enabled": false
+      },
+      "algorithmPrivacy": false,
+      "description": {
+        "language": "en",
+        "direction": "ltr",
+        "value": "form test service descriptiom"
+      },
+      "name": "form test service name"
+    }
+  ],
+  "pricing": {
+    "baseToken": {
+      "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+      "name": "Ocean Token",
+      "symbol": "OCEAN",
+      "decimals": 18
+    },
+    "price": 0,
+    "type": "fixed",
+    "freeAgreement": false
+  },
+  "additionalDdos": [],
+  "additionalDdosPageVisited": false,
+  "credentials": {
+    "allow": [
+      "*"
+    ],
+    "deny": [],
+    "allowInputValue": "",
+    "denyInputValue": "",
+    "requestCredentials": [],
+    "vcPolicies": [],
+    "enabled": false
+  },
+  "accessPolicyPageVisited": true,
+  "step1Completed": true,
+  "step2Completed": true,
+  "step3Completed": true,
+  "step4Completed": false,
+  "step5Completed": false,
+  "step6Completed": false,
+  "submissionPageVisited": false,
+  "previewPageVisited": false,
+  "feedback": {
+    "1": {
+      "name": "Create Tokens & Pricing",
+      "description": "The Data NFT representing your asset, the Datatokens defining access to it, and the pricing schema are all created in a single transaction.",
+      "status": "pending",
+      "txCount": 1
+    },
+    "2": {
+      "name": "Construct & Encrypt DDO",
+      "description": "Entered metadata is transformed into a structured document (DDO) where the file URLs, and the whole DDO itself are encrypted.",
+      "status": "pending",
+      "txCount": 0
+    },
+    "3": {
+      "name": "Publish DDO",
+      "description": "The encrypted DDO is stored on-chain as part of the Data NFT. Indexers like Aquarius can decrypt the DDO for displaying purposes, but the file URLs can only be decrypted by exchanging the respective datatokens for this asset.",
+      "status": "pending",
+      "txCount": 1
+    }
+  }
+}

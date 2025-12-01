@@ -1,0 +1,196 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "did:ope:4ce9c84d0bbe8bfc7a0abcdbcdfcd483b86a0545a4f68f2c9bf3f69df4abe24c",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-26T08:59:28Z",
+      "updated": "2025-11-26T08:59:28Z",
+      "type": "dataset",
+      "name": "Test upload license",
+      "description": {
+        "@value": "Test upload license",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [],
+      "author": "",
+      "license": {
+        "name": "License Agreement.pdf",
+        "licenseDocuments": [
+          {
+            "additionalInformation": {},
+            "sha256": "1d659f4c9a8f825b97aeed8401617ddddc4e3c56bbd35ef28ad4dc22f05e5dc7",
+            "mirrors": [
+              {
+                "headers": {},
+                "ipfsCid": "QmTmjxhhRUb1ocRVL95pB8QxyjvqfRbBbLd3PZXXwYNjKv",
+                "type": "ipfs"
+              }
+            ],
+            "displayName": {
+              "@value": "License Agreement.pdf",
+              "@direction": "",
+              "@language": ""
+            },
+            "name": "License Agreement.pdf",
+            "description": {
+              "@value": "",
+              "@direction": "",
+              "@language": ""
+            },
+            "fileType": "pdf"
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "values": [
+                {
+                  "address": "*"
+                }
+              ],
+              "type": "address"
+            }
+          ],
+          "match_deny": "any",
+          "deny": []
+        },
+        "name": "service 1",
+        "files": "0x045581532ca3b474178abc8ce66b7b36ebdea7b9e33ef38d2f49e9f53ccf111bea4f228bd71ba422d6bdc1fd6db99e76518bd53e7f00ef6411cd28e1cd6f67df0db17eac354df532972ea83e1cfbb31516502b6536cbf48a8c6c1f878682eab8459051f6c082d09a8da1b7ba2212cfc2e1a158269ac7ab557b1d26ad968130c5a0f48c1ff573fd23e1a9ecbcebe0e2e4fc6de6657d50520322935a65843338b2758e9a78a24a9536e3f661c7f826155e574ec65574d54266d9e2dfa4e66d875f040976793dbf31271c92f4b51be54ae05bac3052782fb8cf04120ecc9ba066f368c1a443d4886a37421c81530ca519974453f3deb1a51c934c10bf4de3504ee684ebfde70dbd77b49302e58e8a973d16a11caeb6f444237cc97ed6952a970c24b4fbc2dc8d80477efc8bcd12215b44451482842f1819734bf92a225e3260553e651a9a1538f003ac091852435b108e3bc7327006ae069693b29262223e14c7d14bc0fc16a4d15f32b20fa90f23919238abb6d482823bed9388",
+        "description": {
+          "@value": "service 1 desc",
+          "@direction": "ltr",
+          "@language": "en"
+        },
+        "id": "0306f651900dcb4861e8dd5c04d840b543139f98c5580b517c372f98663f5428",
+        "datatokenAddress": "0x37591be669F54E05C41E227cDba774dADe5099c2",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "type": "access",
+        "timeout": 86400
+      }
+    ],
+    "nftAddress": "0x6274aE33a4028Afbdd8FD2805d610b33188ed13a",
+    "credentials": {
+      "allow": [
+        {
+          "values": [
+            {
+              "address": "*"
+            }
+          ],
+          "type": "address"
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 1,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    },
+    "datatokens": [
+      {
+        "symbol": "OEAT",
+        "address": "0x37591be669F54E05C41E227cDba774dADe5099c2",
+        "name": "Access Token",
+        "serviceId": "0306f651900dcb4861e8dd5c04d840b543139f98c5580b517c372f98663f5428"
+      }
+    ]
+  },
+  "additionalDdos": [],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:web:https:%2F%2Fwallet-ui-dev2.demo.oceanenterprise.io%2F:wallet-api:registry:did2",
+  "proof": {
+    "signature": "rDOazgM8XyJ_HNnXGlwxaNSGnbuajCsMrc0CLVv4u_S_Fzez648243i4p6vVw8KpjgxiIJzXAErCxTQOsEC9Bw",
+    "header": {
+      "kid": "3H6K3z9Sz3TATVfXCWDdzwsatX1-4-WUZdHhyMWYjYQ",
+      "alg": "EdDSA"
+    }
+  },
+  "indexedMetadata": {
+    "stats": [
+      {
+        "symbol": "OEAT",
+        "name": "Access Token",
+        "orders": 0,
+        "datatokenAddress": "0x37591be669F54E05C41E227cDba774dADe5099c2",
+        "serviceId": "0306f651900dcb4861e8dd5c04d840b543139f98c5580b517c372f98663f5428",
+        "prices": [
+          {
+            "exchangeId": "0x8f1f3240e82d3a54393a6a55407cc48f1d55ec191353ce5b3360b2b63f6ecc9b",
+            "price": "1.0",
+            "contract": "0xEcD0C3519a081e3924D6F3197f86980eA7dfCf71",
+            "type": "fixedrate",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0x6274aE33a4028Afbdd8FD2805d610b33188ed13a",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0xD727FB9Be39fA019d7C02fea19E54d688Da3a662",
+      "created": "2025-11-26T10:55:12Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0x4d6f8fdc1c0528d0194eac8a8bb14062cbc54c0c6b69724bb63d620d8e9677c5",
+      "from": "0xD727FB9Be39fA019d7C02fea19E54d688Da3a662",
+      "contract": "0x6274aE33a4028Afbdd8FD2805d610b33188ed13a",
+      "block": 9710283,
+      "datetime": "2025-11-26T10:55:12.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "fixed",
+      "price": "1.0",
+      "addressOrId": "0x8f1f3240e82d3a54393a6a55407cc48f1d55ec191353ce5b3360b2b63f6ecc9b",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0x37591be669F54E05C41E227cDba774dADe5099c2",
+        "name": "Access Token",
+        "symbol": "OEAT",
+        "decimals": 0
+      },
+      "paymentCollector": "0xD727FB9Be39fA019d7C02fea19E54d688Da3a662",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

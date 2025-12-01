@@ -1,0 +1,34 @@
+{
+  "id": "did:ope",
+  "version": "5.0.0",
+
+
+
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "name": "minimal dataset",
+      "author": "ocean-cli",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ]
+    },
+    "services": [
+      {
+        "files": {
+          "files": [
+            {
+              "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+            }
+          ]
+        },
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+      }
+    ]
+  }
+
+}

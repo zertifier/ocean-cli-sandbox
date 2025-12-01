@@ -1,0 +1,159 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2"
+    ],
+    "id": "did:ope:e95cbede796f1a375d1e2b490f9894cdaeabb4421edebe3977ccb1e3bc276a1d",
+    "version": "5.0.0",
+    "credentialSubject": {
+        "chainId": 11155111,
+        "metadata": {
+            "created": "2025-11-24T07:56:51Z",
+            "updated": "2025-11-24T07:56:51Z",
+            "type": "dataset",
+            "name": "Power grid compact data",
+            "description": {
+                "@value": "Data containing analytic for power grid of a city",
+                "@direction": "",
+                "@language": ""
+            },
+            "tags": [],
+            "author": "zertifier",
+            "license": {
+                "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+                "licenseDocuments": [
+                    {
+                        "name": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License",
+                        "fileType": "text/plain; charset=utf-8",
+                        "sha256": "9baadca864bcb6bb30ece91803c808e18980bb217ad849f225dd5ae660fbd4d5",
+                        "mirrors": [
+                            {
+                                "type": "url",
+                                "method": "get",
+                                "url": "https://gist.githubusercontent.com/grigorevaiv/51ad15e39ce9e568ca70c56f9f906b20/raw/ee20654eae0f7b8bee04a131c9f4bad326a81d3d/License"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "links": {},
+            "additionalInformation": {
+                "termsAndConditions": true
+            },
+            "copyrightHolder": "",
+            "providedBy": ""
+        },
+        "services": [
+            {
+                "id": "",
+                "type": "access",
+                "files": "0x04b8999df8a498242cde938a9697fde7996949fe009279c418e2f6d6043b0751d77a8dec89b355dbb578e180ec70b5c072931bbc6f22dd42ee7322a50af56638d742bea222228534416362c5a5978737e924f89e0a59bd72704531372ebdc88781770b6c36e9f8075348d47d0a017d11e73dd9214f10a324a09d6fadf3efdd183b2ab736a4a4a7c5f98d8419e3b4f13abf9ecf2b74ab17db9bfe881cf500e5bf4ea5c472980e730eb8d9d82161c2cb388095fccc1b04e2edfa31e91c374f5a6a55acea5067af5be652296da1b9e8ab3733a345bc6c9856ea7e05bd2161aa93f1eb923b4ec155cd866d2e20ff681b92de4decf33cce275f79426bff59306aafeadcf67cc904d3562e867e997e0fa50c5fbcba44593ed12f0ec485a25b5b5c53ef165785ef0e1f23bee5337d8ec4b4387f838260580487aaf905392062820f783b490fe52cb566317e95e110849d78c10396b83781cd0e0e167f40cfc10c61de35fa4f29ea1aa56eb9d49405d4a36eba3bb250c54ed10acf9ac75439b35934ae9181cbcd9559588e05345b84f4e1ade9964d6b3d927c9b44",
+                "datatokenAddress": "0xC8Fb51F74D4Da923DB91ffD2Ef52211987E67e69",
+                "serviceEndpoint": "https://ocean-node-vm2.oceanenterprise.io",
+                "timeout": 31556952,
+                "name": "Power grid data v3",
+                "description": {
+                    "@value": "third chunk of the data",
+                    "@direction": "ltr",
+                    "@language": "en"
+                },
+                "state": 0,
+                "credentials": {
+                    "allow": [],
+                    "deny": [],
+                    "match_deny": "any"
+                }
+            }
+        ],
+        "nftAddress": "0x023907d4f0Ed4B84D99D949620ECC171e55D58BD",
+        "credentials": {
+            "allow": [
+                {
+                    "type": "address",
+                    "values": [
+                        {
+                            "address": "*"
+                        }
+                    ]
+                }
+            ],
+            "deny": [],
+            "match_deny": "any"
+        },
+        "datatokens": [
+            {
+                "address": "0xC8Fb51F74D4Da923DB91ffD2Ef52211987E67e69",
+                "name": "Taciturn Porpoise Token",
+                "symbol": "TACPOR-91",
+                "serviceId": ""
+            }
+        ]
+    },
+    "additionalDdos": [],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibG5ZS2IwRVRUelBaenNCT3JnRUY3Ni1la3h0dVoySnhqQnp6dU5CRndxOCIsIngiOiJxMnM5S0RuUlc3U1pCYTM5S3NHU0hTbFdxbkdDam1UQWpiR0hBVG1OV1lFIn0",
+    "indexedMetadata": {
+        "stats": [
+            {
+                "datatokenAddress": "0xC8Fb51F74D4Da923DB91ffD2Ef52211987E67e69",
+                "name": "Taciturn Porpoise Token",
+                "symbol": "TACPOR-91",
+                "serviceId": "",
+                "orders": 0,
+                "prices": [
+                    {
+                        "type": "dispenser",
+                        "price": "0",
+                        "contract": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+                        "token": "0xC8Fb51F74D4Da923DB91ffD2Ef52211987E67e69"
+                    }
+                ]
+            }
+        ],
+        "nft": {
+            "state": 0,
+            "address": "0x023907d4f0Ed4B84D99D949620ECC171e55D58BD",
+            "name": "Access Token",
+            "symbol": "OEAT",
+            "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "created": "2025-11-24T14:07:24Z",
+            "tokenURI": "aaa"
+        },
+        "event": {
+            "txid": "0xea87721b4ce43fe6d21c180e03670c24a38a856e1948138ac753d81f0b73f117",
+            "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "contract": "0x023907d4f0Ed4B84D99D949620ECC171e55D58BD",
+            "block": 9697241,
+            "datetime": "2025-11-24T14:07:24.000Z"
+        },
+        "purgatory": {
+            "state": false
+        }
+    },
+    "accessDetails": [
+        {
+            "type": "free",
+            "price": "0",
+            "addressOrId": "0x2720d405ef7cDC8a2E2e5AeBC8883C99611d893C",
+            "baseToken": {
+                "address": "",
+                "name": "",
+                "symbol": "",
+                "decimals": 0
+            },
+            "datatoken": {
+                "address": "0xC8Fb51F74D4Da923DB91ffD2Ef52211987E67e69",
+                "name": "Taciturn Porpoise Token",
+                "symbol": "TACPOR-91",
+                "decimals": 0
+            },
+            "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+            "templateId": 2,
+            "isOwned": false,
+            "validOrderTx": "",
+            "isPurchasable": true,
+            "publisherMarketOrderFee": "0"
+        }
+    ]
+}

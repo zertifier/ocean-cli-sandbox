@@ -1,0 +1,170 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "additionalDdos": [],
+  "credentialSubject": {
+    "chainId": 11155111,
+    "credentials": {
+      "allow": [
+        {
+          "type": "address",
+          "values": [
+            {
+              "address": "*"
+            }
+          ]
+        }
+      ],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "metadata": {
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "author": "ocean-cli",
+      "copyrightHolder": "",
+      "created": "2025-12-01T12:00:00Z",
+      "description": {
+        "@direction": "",
+        "@language": "",
+        "@value": "Public behaviour testing data"
+      },
+      "license": {
+        "licenseDocuments": [
+          {
+            "fileType": "text/html; charset=utf-8",
+            "mirrors": [
+              {
+                "method": "get",
+                "type": "url",
+                "url": "https://gist.githubusercontent.com/freezerain/361c18488e7cea74eeddfdfbf0ab1d4b/raw"
+              }
+            ],
+            "name": "Behaviour test list and results",
+            "sha256": "cd3a5ab9cc45107e13dc9152d2699349c384ddea47f4f81b9905c62866bfe501"
+          }
+        ],
+        "name": "Behaviour test list"
+      },
+      "links": {},
+      "name": "fixedRate1 dataset",
+      "providedBy": "",
+      "tags": [
+        "ocean-cli",
+        "zertifier",
+        "behaviour",
+        "test",
+        "zertitest"
+      ],
+      "type": "dataset",
+      "updated": "2025-12-01T12:00:00Z"
+    },
+    "services": [
+      {
+        "credentials": {
+          "allow": [
+            {
+              "type": "address",
+              "values": [
+                {
+                  "address": "*"
+                }
+              ]
+            }
+          ],
+          "deny": [],
+          "match_deny": "any"
+        },
+        "datatokenAddress": "0xF4207dc74ddE479aa9Aca0fDa71e9d9a9c5230Ad",
+        "files": "0x04ec5007112fac04cf6cde3487423045e31b7e2da4a519a411fe3e482294a8bdb03fad3e05a1c32945d4b3efc243b6272337dabbde4628c2c128c81ff3177eea4d0705b6cb3d15a9bd183f5ab96588db2d31ab745b747bbc4625858b7df403b6affcc73b96750dd5aa09adbe199d256261e17af68c5d352016f53b15a5d67525b68d0937a9337c9a3766b4a9d6f97bae0cee037d3f2cf65d9c8d639340a2ec847ddc972aa6800a3edec371738135f33a9d0c0b85e8e2d9e65a89fd8309c5fa6c5eb7926623bee48fe1b3e90272801612c65f130470c3e4f8772bb2eda8280ebd5835a1c639eb5edac9812b5bcff1eef47ceaba8eeff1dda10727c121e74a5ad75d52aacc5042e383dad4b567a184ac01a4ec18e7235c88a8b4340915701c35268cf55ec6be63501c4ad1b309415ae63a8c7d8f76db1ef0cd33cc4b7a05d40aebf7341eb08a9250a09d80220cbef15734182f312c70ab4e0dbbd4e0746f7224",
+        "id": "1",
+        "name": "",
+        "serviceEndpoint": "https://ocean-node-vm3.oceanenterprise.io",
+        "state": 0,
+        "timeout": 31556952,
+        "type": "access"
+      }
+    ],
+    "nftAddress": "0xeF23Bf8965e3fF2844146b31b9f9BC7F86341c70",
+    "datatokens": [
+      {
+        "address": "0xF4207dc74ddE479aa9Aca0fDa71e9d9a9c5230Ad",
+        "name": "Comely Porpoise Token",
+        "symbol": "COMPOR-79",
+        "serviceId": "1"
+      }
+    ]
+  },
+  "id": "did:ope:d315020ac709390e70e7906e5c191a4256e276e1784ac4fb3d5a3e943525404e",
+  "issuer": "did:jwk:eyJrdHkiOiJPS1AiLCJjcnYiOiJFZDI1NTE5Iiwia2lkIjoibUJjZDJXbGQ0YVNCaHpJR0RKNTVPc1NHWUY4R2h6Vmt2MkVkTC1KYko5MCIsIngiOiJJT1R2UWRqQlRxMzZMbTFuTXdkaTYzN00zdXMycUR3blN5MC13djVkNFRBIn0",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "version": "5.0.0",
+  "indexedMetadata": {
+    "stats": [
+      {
+        "datatokenAddress": "0xF4207dc74ddE479aa9Aca0fDa71e9d9a9c5230Ad",
+        "name": "Comely Porpoise Token",
+        "symbol": "COMPOR-79",
+        "serviceId": "1",
+        "orders": 0,
+        "prices": [
+          {
+            "type": "fixedrate",
+            "price": "1.0",
+            "token": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+            "contract": "0x80E63f73cAc60c1662f27D2DFd2EA834acddBaa8",
+            "exchangeId": "0xda44985893ac0a5c992dfc2d65ecac0ac7c5a1fe6667cc50436f846105a26b1d"
+          }
+        ]
+      }
+    ],
+    "nft": {
+      "state": 0,
+      "address": "0xeF23Bf8965e3fF2844146b31b9f9BC7F86341c70",
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "created": "2025-12-01T12:47:48Z",
+      "tokenURI": ""
+    },
+    "event": {
+      "txid": "0xc41ae5432139918a7965724353e236be3e3945df4ffd4c40ed7905e3c53c0f80",
+      "from": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "contract": "0xeF23Bf8965e3fF2844146b31b9f9BC7F86341c70",
+      "block": 9745836,
+      "datetime": "2025-12-01T12:47:48.000Z"
+    },
+    "purgatory": {
+      "state": false
+    }
+  },
+  "accessDetails": [
+    {
+      "type": "fixed",
+      "price": "1.0",
+      "addressOrId": "0xda44985893ac0a5c992dfc2d65ecac0ac7c5a1fe6667cc50436f846105a26b1d",
+      "baseToken": {
+        "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+        "name": "Ocean Token",
+        "symbol": "OCEAN",
+        "decimals": 18
+      },
+      "datatoken": {
+        "address": "0xF4207dc74ddE479aa9Aca0fDa71e9d9a9c5230Ad",
+        "name": "Comely Porpoise Token",
+        "symbol": "COMPOR-79",
+        "decimals": 0
+      },
+      "paymentCollector": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "templateId": 2,
+      "isOwned": false,
+      "validOrderTx": "",
+      "isPurchasable": true,
+      "publisherMarketOrderFee": "0"
+    }
+  ]
+}

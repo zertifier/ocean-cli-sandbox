@@ -1,0 +1,126 @@
+{
+  "user": {
+    "stepCurrent": 1,
+    "chainId": 11155111,
+    "accountId": "0x5a43ad449987600408f1e3fC90d397EC0266889B"
+  },
+  "metadata": {
+    "nft": {
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "description": "This NFT represents an asset in Ocean Enterprise ecosystems.",
+      "external_url": "https://enterprise.oceanprotocol.com",
+      "background_color": "141414",
+      "image_data": "data:image/svg+xml,%3Csvg viewBox='0 0 99 99' fill='undefined' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23009793ff' d='M0,99L0,26C9,21 19,17 28,18C36,18 45,23 53,25C60,26 68,24 76,24C83,23 91,25 99,27L99,99Z'/%3E%3Cpath fill='%23008baaff' d='M0,99L0,41C8,48 17,55 26,57C34,58 43,53 52,52C60,50 67,52 75,52C82,51 90,48 99,46L99,99Z'%3E%3C/path%3E%3Cpath fill='%23004967ff' d='M0,99L0,72C10,73 20,75 28,78C35,80 41,82 49,80C56,77 67,71 76,68C84,64 91,64 99,65L99,99Z'%3E%3C/path%3E%3C/svg%3E"
+    },
+    "transferable": true,
+    "type": "dataset",
+    "name": "",
+    "description": "",
+    "author": "",
+    "termsAndConditions": false,
+    "dockerImage": "",
+    "dockerImageCustom": "",
+    "dockerImageCustomTag": "",
+    "dockerImageCustomEntrypoint": "",
+    "dockerImageCustomChecksum": "",
+    "tags": [],
+    "dataSubjectConsent": false,
+    "licenseTypeSelection": "",
+    "licenseUrl": []
+  },
+  "services": [
+    {
+      "files": [
+        {
+          "url": "",
+          "type": "ipfs"
+        }
+      ],
+      "links": [
+        {
+          "url": "",
+          "type": "url"
+        }
+      ],
+      "dataTokenOptions": {
+        "name": "",
+        "symbol": ""
+      },
+      "timeout": "",
+      "access": "access",
+      "providerUrl": {
+        "url": "https://1.c2d.nodes.oceanprotocol.com:8000/",
+        "valid": true,
+        "custom": false
+      },
+      "computeOptions": {
+        "allowRawAlgorithm": false,
+        "allowNetworkAccess": true,
+        "publisherTrustedAlgorithmPublishers": [],
+        "publisherTrustedAlgorithms": []
+      },
+      "usesConsumerParameters": false,
+      "consumerParameters": [],
+      "credentials": {
+        "allow": [],
+        "deny": [],
+        "requestCredentials": [],
+        "vcPolicies": [],
+        "enabled": false
+      },
+      "algorithmPrivacy": false
+    }
+  ],
+  "pricing": {
+    "baseToken": {
+      "address": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985",
+      "name": "Ocean Token",
+      "symbol": "OCEAN",
+      "decimals": 18
+    },
+    "price": 0,
+    "type": "fixed",
+    "freeAgreement": false
+  },
+  "additionalDdos": [],
+  "additionalDdosPageVisited": false,
+  "credentials": {
+    "allow": [],
+    "deny": [],
+    "allowInputValue": "",
+    "denyInputValue": "",
+    "requestCredentials": [],
+    "vcPolicies": [],
+    "enabled": false
+  },
+  "accessPolicyPageVisited": false,
+  "step1Completed": false,
+  "step2Completed": false,
+  "step3Completed": false,
+  "step4Completed": false,
+  "step5Completed": false,
+  "step6Completed": false,
+  "submissionPageVisited": false,
+  "previewPageVisited": false,
+  "feedback": {
+    "1": {
+      "name": "Create Tokens & Pricing",
+      "description": "The Data NFT representing your asset, the Datatokens defining access to it, and the pricing schema are all created in a single transaction.",
+      "status": "pending",
+      "txCount": 1
+    },
+    "2": {
+      "name": "Construct & Encrypt DDO",
+      "description": "Entered metadata is transformed into a structured document (DDO) where the file URLs, and the whole DDO itself are encrypted.",
+      "status": "pending",
+      "txCount": 0
+    },
+    "3": {
+      "name": "Publish DDO",
+      "description": "The encrypted DDO is stored on-chain as part of the Data NFT. Indexers like Aquarius can decrypt the DDO for displaying purposes, but the file URLs can only be decrypted by exchanging the respective datatokens for this asset.",
+      "status": "pending",
+      "txCount": 1
+    }
+  }
+}

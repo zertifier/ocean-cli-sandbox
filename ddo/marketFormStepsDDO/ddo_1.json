@@ -1,0 +1,106 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "id": "Generated when published",
+  "version": "5.0.0",
+  "credentialSubject": {
+    "chainId": 11155111,
+    "metadata": {
+      "created": "2025-11-26T12:34:12Z",
+      "updated": "2025-11-26T12:34:12Z",
+      "type": "dataset",
+      "name": "Form testing asset",
+      "description": {
+        "@value": "description for for form testing asset",
+        "@direction": "",
+        "@language": ""
+      },
+      "tags": [
+        "ocean-form-test"
+      ],
+      "author": "ocean-cli-publish",
+      "license": {
+        "name": "https://placeholder.com/",
+        "licenseDocuments": [
+          {
+            "name": "https://placeholder.com/",
+            "fileType": "",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "mirrors": [
+              {
+                "type": "url",
+                "method": "get",
+                "url": "https://placeholder.com/"
+              }
+            ]
+          }
+        ]
+      },
+      "links": {},
+      "additionalInformation": {
+        "termsAndConditions": true
+      },
+      "copyrightHolder": "",
+      "providedBy": ""
+    },
+    "services": [
+      {
+        "id": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "type": "access",
+        "files": "",
+        "datatokenAddress": null,
+        "serviceEndpoint": "https://1.c2d.nodes.oceanprotocol.com:8000/",
+        "timeout": 0,
+        "description": {
+          "@value": "",
+          "@direction": "",
+          "@language": ""
+        },
+        "state": 0,
+        "credentials": {
+          "allow": [],
+          "deny": [],
+          "match_deny": "any"
+        }
+      }
+    ],
+    "nftAddress": null,
+    "credentials": {
+      "allow": [],
+      "deny": [],
+      "match_deny": "any"
+    },
+    "datatokens": [
+      {
+        "name": "",
+        "symbol": "",
+        "address": "",
+        "serviceId": ""
+      }
+    ],
+    "stats": {
+      "allocated": 0,
+      "orders": 0,
+      "price": {
+        "value": 0,
+        "tokenSymbol": "OCEAN",
+        "tokenAddress": "0x1B083D8584dd3e6Ff37d04a6e7e82b5F622f3985"
+      }
+    }
+  },
+  "indexedMetadata": {
+    "nft": {
+      "name": "Data NFT",
+      "symbol": "OEC-NFT",
+      "templateIndex": 1,
+      "tokenURI": "",
+      "transferable": true,
+      "owner": "0x5a43ad449987600408f1e3fC90d397EC0266889B",
+      "address": "",
+      "state": 0,
+      "created": ""
+    }
+  },
+  "additionalDdos": []
+}
